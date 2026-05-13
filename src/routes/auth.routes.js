@@ -12,4 +12,10 @@ app.use(XPathExpression.json());
  */
 authRouter.post("/register", authController.registerUserController);
 
+/**
+ * @route POST /api/auth/login
+ * @description login user with email amd password
+ * @access Public
+ */
+authRouter.post("/login",authController.loginUserController)
 module.exports = authRouter;
