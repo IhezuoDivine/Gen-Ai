@@ -1,8 +1,7 @@
 require("dotenv").config()
 
-const { Request } = require("undici-types")
-const app = require("./src/app")
-const connectToDB = require("./src/config/database")
+const app = require("./app")
+const connectToDB = require("./config/database")
 
 
 connectToDB()
