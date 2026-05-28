@@ -1,0 +1,49 @@
+main {
+  min-height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--bg-color);
+}
+.container {
+  padding: 10px;
+  min-width: 300px;
+}
+.loginh1 {
+  color: var(--bg-color);
+  padding-bottom: 30px;
+}
+.input-group label {
+  display: block;
+}
+.input-group input {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 10px 0px;
+  width: 100%;
+}
+.input:hover {
+  background-color: white;
+}
+.input::placeholder {
+  color: rgb(70, 68, 68);
+}
+.Loginbutton {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 100%;
+  font-weight: bold;
+  background-color: brown;
+  color: var(--bg-color);
+  margin-bottom: 10px;
+}
+.Loginbutton:hover {
+  background-color: rgb(180, 100, 100);
+}
+
+.link {
+  color: var(--main-color);
+}

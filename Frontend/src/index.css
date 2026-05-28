@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+:root {
+  --bg-color: rgb(253, 246, 240);
+  --second-bg: rgb(224, 224, 224);
+  --main-color: rgb(214, 58, 37);
+  --text-color: rgb(34, 34, 34);
+}
+body {
+  background-color: var(--second-bg);
+  color: var(--text-color);
+  font-family: sans-serif;
+}
+.main {
+  padding-top: 70px;
+  background-color: var(--second-bg);
+}
